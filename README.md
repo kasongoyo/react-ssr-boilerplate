@@ -25,7 +25,6 @@ React Boilerplate with Server Side rendering enabled.
 │   ├── server_dev.js
 │   ├── template.js
 │   └── template_dev.js
-├── yarn-error.log
 └── yarn.lock
 ```
 
