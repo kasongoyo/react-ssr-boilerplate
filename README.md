@@ -3,23 +3,29 @@ React Boilerplate with Server Side rendering enabled.
 
 ## Project Structure
 ```
+.
 ├── README.md
+├── config
+│   ├── jest
+│   │   ├── fileMock.js
+│   │   └── fileTransform.js
+│   ├── webpack.config.dev.js
+│   └── webpack.config.prod.js
 ├── development.js
 ├── package.json
 ├── production.js
 ├── public
 ├── src
-│   ├── __mocks__
-│   │   └── fileMock.js
 │   ├── client.js
 │   ├── components
-│   │   └── app.js
-│   ├── server.jsx
-│   ├── server_dev.jsx
+│   │   ├── App.js
+│   │   ├── App.scss
+│   │   └── App.test.js
+│   ├── server.js
+│   ├── server_dev.js
 │   ├── template.js
 │   └── template_dev.js
-├── webpack.config.development.js
-├── webpack.config.production.js
+├── yarn-error.log
 └── yarn.lock
 ```
 
@@ -36,7 +42,11 @@ Server side render in production environment
 - `src/template_dev.js`   
 index.html equivalent template in dev environment  
 - `src/template.js`  
-index.html equivalent template in prod environment 
+index.html equivalent template in prod environment   
+- `config/webpack.config.dev.js`  
+Webpack development configuration  
+- `config/webpack.config.prod.js`  
+Webpack production configuration 
 
 
 ## Usage
